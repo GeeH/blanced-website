@@ -1,0 +1,18 @@
+# robots.txt for Blanced Health and Safety Consultancy
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.blanced.co.uk/sitemap.xml
+
+# Block access to admin areas (if any in future)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all bots to index images
+User-agent: Googlebot-Image
+Allow: /public/images/
+
+User-agent: *
+Crawl-delay: 10
